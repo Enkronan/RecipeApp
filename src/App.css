@@ -34,3 +34,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.recipe li {
+  list-style: none;
+}
