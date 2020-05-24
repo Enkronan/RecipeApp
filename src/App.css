@@ -28,3 +28,9 @@
 .search-button:hover{
   background: rgb(235, 101, 101);
 }
+
+.recipe{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

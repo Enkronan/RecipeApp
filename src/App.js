@@ -37,6 +37,7 @@ function App() {
         <input className="search-bar" value={search} type="text" onChange={updateSearch}/>
         <button className="search-button" type="submit">Search</button>
       </form>
+      <div className="recipe">
       {recipes.map(recipe =>(
         <Recipe
         key = {recipe.recipe.label} 
@@ -45,6 +46,7 @@ function App() {
         image={recipe.recipe.image}
         ingredients={recipe.recipe.ingredients}/>
       ))}
+      </div>
     </div>
   );
 }
